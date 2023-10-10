@@ -28,8 +28,11 @@ def stable_marriage(men_set : dict, women_set: dict) -> dict:
 
 
 if __name__ == '__main__':
-	with open("./data/set_one.json", "r") as source:
-		data = json.loads(source.read())
-		result_set = stable_marriage(data["men"], data["women"])
-		print('[+] Results')
-		print(json.dumps(result_set, indent=2))
+
+	for _item in (["one", "two", "three"]):
+		with open("./data/set_{0}.json".format(_item), "r") as source:
+			data = json.loads(source.read())
+			result_set = stable_marriage(data["men"], data["women"])
+			print(f'[+] Matching pairs for set_{_item}')
+			print(json.dumps(result_set, indent=2))
+			print(" - - - - - - - - - - - - - - - - - - - ")

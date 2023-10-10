@@ -1,0 +1,17 @@
+{
+	"men": {
+		"Liam" : ["Olivia", "Emily", "Mia", "Sophia", "Ava"],
+		"James" : ["Sophia", "Olivia", "Mia", "Ava", "Emily"],
+		"Noah" : ["Sophia", "Olivia", "Emily", "Ava", "Mia"],
+		"Ethan" : ["Sophia", "Ava", "Mia", "Olivia", "Emily"],
+		"Lucas" : ["Ava", "Emily", "Sophia", "Mia", "Olivia"]
+	},
+
+	"women": {
+		"Emily" : ["Liam", "James", "Noah", "Ethan", "Lucas"],
+		"Sophia" : ["Ethan", "Noah", "Liam", "Lucas", "James"],
+		"Olivia" : ["Lucas", "James", "Noah", "Liam", "Ethan"],
+		"Ava" : ["Noah", "Ethan", "James", "Lucas", "Liam"],
+		"Mia" : ["James", "Lucas", "Liam", "Noah", "Ethan"]
+	}
+}
