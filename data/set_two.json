@@ -1,0 +1,12 @@
+{
+	"men": {
+		"Tom": ["Sarah", "Emma", "Linda"],
+    	"Jake": ["Emma", "Sarah", "Linda"],
+    	"Mike": ["Linda", "Sarah", "Emma"]
+	},
+	"women" : {
+		"Sarah": ["Tom", "Jake", "Mike"],
+    	"Emma": ["Mike", "Jake", "Tom"],
+    	"Linda": ["Tom", "Mike", "Jake"]
+	}
+}
